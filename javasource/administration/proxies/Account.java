@@ -72,6 +72,9 @@ public class Account extends system.proxies.User
 	 */
 	public static administration.proxies.Account initialize(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixObject mendixObject)
 	{
+		if (com.mendix.core.Core.isSubClassOf("DomDAL.Trainer", mendixObject.getType()))
+			return domdal.proxies.Trainer.initialize(context, mendixObject);
+
 		return new administration.proxies.Account(context, mendixObject);
 	}
 
@@ -81,7 +84,7 @@ public class Account extends system.proxies.User
 		return administration.proxies.Account.initialize(context, mendixObject);
 	}
 
-	public static java.util.List<administration.proxies.Account> load(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String xpathConstraint) throws com.mendix.core.CoreException
+	public static java.util.List<? extends administration.proxies.Account> load(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String xpathConstraint) throws com.mendix.core.CoreException
 	{
 		java.util.List<administration.proxies.Account> result = new java.util.ArrayList<administration.proxies.Account>();
 		for (com.mendix.systemwideinterfaces.core.IMendixObject obj : com.mendix.core.Core.retrieveXPathQuery(context, "//Administration.Account" + xpathConstraint))
