@@ -22,11 +22,11 @@ public enum UserType
 	{
 		if (captions.containsKey(languageCode))
 			return captions.get(languageCode);
-		return captions.get("en_US");
+		return captions.get("nl_NL");
 	}
 
 	public java.lang.String getCaption()
 	{
-		return captions.get("en_US");
+		return captions.get("nl_NL");
 	}
 }
