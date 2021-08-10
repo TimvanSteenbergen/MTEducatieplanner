@@ -1,0 +1,17 @@
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Account > account.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Contactpersoon > contactpersoon.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Opdracht > Opdracht.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Opdrachtregel > Opdrachtregel.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Product > Product.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Reservering > Reservering.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDAL/Trainer > Trainer.csv
+
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Opdracht_Contactpersoon > Opdracht_Contactpersoon.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Opdrachtregel_Opdracht > Opdrachtregel_Opdracht.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Opdrachtregel_Product > Opdrachtregel_Product.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Opdracht_Trainingscentrum > Opdracht_Trainingscentrum.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Reservering_Product > Reservering_Product.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Reservering_Trainer > Reservering_Trainer.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Trainer_Product > Trainer_Product.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Trainingscentrum_Contactpersoon > Trainingscentrum_Contactpersoon.csv
+curl -v -X GET http://test:GguuBcV7V8zHZwrSuf1Te@mteducatieplanner100-sandbox.mxapps.io/csv/DomDALExport/Trainingscentrum_AccountManagerAccount > Trainingscentrum_AccountManagerAccount.csv

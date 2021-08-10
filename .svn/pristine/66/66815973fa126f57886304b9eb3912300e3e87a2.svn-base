@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="jQueryUIDateTimePicker.widget.jQueryUIDateTimePicker" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>jQueryUIDateTimePicker</name>
+  <description>A simple alternative to the built-in Mendix datepicker, that uses the jQueryUI Datepicker and Trent Richardson's Timepicker addon (http://trentrichardson.com/examples/timepicker/).</description>
+  <icon>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
+  </icon>
+  <properties>
+		<!-- General -->
+        <property key="dateAttribute" type="attribute">
+            <caption>Attribute (path)</caption>
+            <category>General</category>
+			<description></description>
+            <attributeTypes>
+                <attributeType name="DateTime"/>
+            </attributeTypes>
+        </property>
+		<property key="pickerType" type="enumeration" defaultValue="DateTimePicker">
+            <caption>Picker type</caption>
+            <category>General</category>
+            <description>Picker type to be shown.</description>
+			<enumerationValues>
+				<enumerationValue key="DateTimePicker">DateTime</enumerationValue>
+				<enumerationValue key="DatePicker">Date</enumerationValue>
+				<enumerationValue key="TimePicker">Time</enumerationValue>
+			</enumerationValues>
+        </property>
+		<property key="showButtonBar" type="boolean" defaultValue="false">
+            <caption>Display button bar</caption>
+            <category>General</category>
+            <description>Display a button for selecting Today's date and a Done button for closing the calendar.</description>
+        </property>
+		<property key="labelCaption" type="translatableString" required="false">
+			<caption>Label</caption>
+			<category>Display</category>
+			<description>The label to show on the form, leave empty to show no label.</description>
+		</property>
+		<property key="labelWidth" type="integer" required="true" defaultValue="3">
+			<caption>LabelWidth</caption>
+			<category>Display</category>
+			<description>The width of the label, only applicable for horizontal display.</description>
+		</property>
+		<property key="displayEnum" type="enumeration" defaultValue="horizontal" required="true">
+			<caption>LabelDisplay</caption>
+			<category>Display</category>
+			<description>How to display the label</description>
+			<enumerationValues>
+				<enumerationValue key="horizontal">Horizontal</enumerationValue>
+				<enumerationValue key="vertical">Vertical</enumerationValue>
+			</enumerationValues>
+		</property>
+		<property key="placeholderText" type="string" required="false">
+            <caption>Placeholder text</caption>
+            <category>Display</category>
+            <description></description>
+        </property>
+        <property key="iconTooltip" type="string" required="false">
+            <caption>Icon tooltip</caption>
+            <category>Display</category>
+            <description>Tooltip on the calendar icon.</description>
+        </property>
+		<property key="theme" type="enumeration" defaultValue="mendix" required="true">
+			<caption>Theme</caption>
+			<category>Display</category>
+			<description>Theme to use for the datatime picker</description>
+			<enumerationValues>
+				<enumerationValue key="base">jQueryUI Base</enumerationValue>
+				<enumerationValue key="mendix">Mendix</enumerationValue>				
+				<enumerationValue key="ui_lightness">UI Lightness</enumerationValue>
+				<enumerationValue key="redmond">Redmond</enumerationValue>
+			</enumerationValues>
+		</property>
+		<!-- Date options -->
+		<property key="useCustomDateFormat" type="boolean" defaultValue="false">
+            <caption>Use custom date format</caption>
+            <category>Date options</category>
+            <description></description>
+        </property>
+		<property key="customDateFormat" type="string" defaultValue="mm/dd/yy" required="false">
+            <caption>Custom Date format</caption>
+            <category>Date options</category>
+            <description>Custom date format that is used, e.g. mm/dd/yy or dd-mm-yy. See jQueryUI documentation (http://api.jqueryui.com/datepicker/#utility-formatDate) for possible formats.</description>
+        </property>
+        <property key="defaultDateStr" type="string" required="false">
+            <caption>Default date (string)</caption>
+            <category>Date options</category>
+            <description>Optional default date of the datepicker, should be corresponding to the date format.</description>
+        </property>
+		<property key="defaultDateAttr" type="attribute" required="false">
+            <caption>Default date (attribute)</caption>
+            <category>Date options</category>
+            <description>Optional string attribute with a default date of the datepicker, should be corresponding to the date format.</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+        <property key="yearRange" type="string" defaultValue="-100:+100" required="false">
+            <caption>Range</caption>
+            <category>Date options</category>
+            <description>Range in years, either absolute (1970:2010) or relative (-100:+0)</description>
+        </property>
+		<property key="showMonthYearMenu" type="boolean" defaultValue="true">
+            <caption>Month / year menus</caption>
+            <category>Date options</category>
+            <description>Show month and year dropdowns in place of the static month/year header to facilitate navigation through large timeframes.</description>
+        </property>
+		<property key="showWeekNr" type="boolean" defaultValue="false">
+            <caption>Show weeknumber</caption>
+            <category>Date options</category>
+            <description>Show the week of the year. The default calculation follows the ISO 8601 definition: the week starts on Monday, the first week of the year contains the first Thursday of the year.</description>
+        </property>
+		<property key="firstDay" type="enumeration" defaultValue="Default">
+            <caption>First day of the week</caption>
+            <category>Date options</category>
+            <description>Set the first day of the datepicker (Sunday or Monday)</description>
+			<enumerationValues>
+                <enumerationValue key="Default">Default</enumerationValue>
+				<enumerationValue key="Monday">Monday</enumerationValue>
+				<enumerationValue key="Sunday">Sunday</enumerationValue>
+			</enumerationValues>
+        </property>
+		<!-- Time options -->
+		<property key="useCustomTimeFormat" type="boolean" defaultValue="false">
+            <caption>Use custom time format</caption>
+            <category>Time options</category>
+            <description></description>
+        </property>
+		<property key="customTimeFormat" type="string" defaultValue="hh:mm tt">
+            <caption>Time format</caption>
+            <category>Time options</category>
+            <description>Time format that is used, e.g. hh:mm tt or HH:mm. See documentation (http://trentrichardson.com/examples/timepicker/#tp-formatting) for possible formats.</description>
+        </property>
+		<property key="minTime" type="string" required="false">
+            <caption>Minimum time</caption>
+            <category>Time options</category>
+            <description>String of the minimum time allowed. '8:00 am' will restrict to times after 8am. Should be corresponding to the time format.</description>
+        </property>
+		<property key="maxTime" type="string" required="false">
+            <caption>Maximum time</caption>
+            <category>Time options</category>
+            <description>String of the maximum time allowed. '8:00 pm' will restrict to times before 8pm. Should be corresponding to the time format.</description>
+        </property>
+		<property key="addSliderButtons" type="boolean" defaultValue="false">
+            <caption>Add slider buttons</caption>
+            <category>Time options</category>
+            <description>Show +/- buttons next to time-slider</description>
+        </property>
+        <!-- Behavior options -->
+        <property key="onChangeMicroflow" type="microflow" required="false">
+            <caption>On change microflow</caption>
+            <category>Behavior</category>
+            <description></description>
+            <returnType type="Void" />
+        </property>
+		<property key="onChangeMicroflowProgress" type="boolean" defaultValue="false">
+            <caption>Show progress bar</caption>
+            <category>Behavior</category>
+            <description></description>
+        </property>
+		<property key="onChangeMicroflowProgressMsg" type="string" required="false">
+            <caption>Progress message</caption>
+            <category>Behavior</category>
+            <description></description>
+        </property>
+		<property key="onChangeMicroflowAsync" type="boolean" defaultValue="false">
+            <caption>Asynchronous</caption>
+            <category>Behavior</category>
+            <description>Microflow call type.</description>
+        </property>
+	</properties>
+</widget>

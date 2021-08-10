@@ -102,6 +102,7 @@ public class UserActionsRegistrar
     registrator.registerUserAction(communitycommons.actions.TimeMeasureStart.class);
     registrator.registerUserAction(communitycommons.actions.XSSSanitize.class);
     registrator.registerUserAction(communitycommons.actions.YearsBetween.class);
+    registrator.registerUserAction(countriesv5.actions.StringToCountry.class);
     registrator.registerUserAction(emailtemplate.actions.ConvertHTMLBodyToPlainText.class);
     registrator.registerUserAction(emailtemplate.actions.CopyAttachmentContent.class);
     registrator.registerUserAction(emailtemplate.actions.ReplaceCustomToken.class);
@@ -120,6 +121,16 @@ public class UserActionsRegistrar
     registrator.registerUserAction(mxmodelreflection.actions.SyncObjects.class);
     registrator.registerUserAction(mxmodelreflection.actions.TestThePattern.class);
     registrator.registerUserAction(mxmodelreflection.actions.ValidateTokensInMessage.class);
+    registrator.registerUserAction(oql.actions.AddBooleanParameter.class);
+    registrator.registerUserAction(oql.actions.AddDateTimeParameter.class);
+    registrator.registerUserAction(oql.actions.AddDecimalParameter.class);
+    registrator.registerUserAction(oql.actions.AddIntegerLongValue.class);
+    registrator.registerUserAction(oql.actions.AddObjectParameter.class);
+    registrator.registerUserAction(oql.actions.AddStringParameter.class);
+    registrator.registerUserAction(oql.actions.CountRowsOQLStatement.class);
+    registrator.registerUserAction(oql.actions.ExecuteOQLStatement.class);
+    registrator.registerUserAction(oql.actions.ExportOQLToCSV.class);
+    registrator.registerUserAction(serviceconnector.actions.StringToEnum_ConsumerStatus.class);
     registrator.registerUserAction(system.actions.VerifyPassword.class);
   }
 }

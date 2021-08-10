@@ -1,0 +1,1 @@
+com.mendix.systemwideinterfaces.MendixRuntimeException: com.mendix.core.CoreRuntimeException: Exception occurred in action '{"xpath":"count(//DomDAL.Account)","type":"RetrieveXPathAggregateActionLong"}', all database changes executed by this action were rolled back

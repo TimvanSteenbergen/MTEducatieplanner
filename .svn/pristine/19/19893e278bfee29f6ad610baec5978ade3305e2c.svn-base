@@ -1,0 +1,6 @@
+@import "custom-variables";
+.mx-grid tr.selected{
+    background-color: "#FFFFFF" ; // set it to the color of your choice
+    border: 5px solid #EFF23A; 
+}
+

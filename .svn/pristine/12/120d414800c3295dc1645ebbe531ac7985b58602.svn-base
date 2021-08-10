@@ -1,0 +1,17 @@
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Account > account.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Contactpersoon > contactpersoon.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Opdracht > Opdracht.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Opdrachtregel > Opdrachtregel.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Product > Product.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Reservering > Reservering.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDAL/Trainer > Trainer.csv
+
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Opdracht_Contactpersoon > Opdracht_Contactpersoon.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Opdrachtregel_Opdracht > Opdrachtregel_Opdracht.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Opdrachtregel_Product > Opdrachtregel_Product.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Opdracht_Trainingscentrum > Opdracht_Trainingscentrum.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Reservering_Product > Reservering_Product.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Reservering_Trainer > Reservering_Trainer.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Trainer_Product > Trainer_Product.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Trainingscentrum_Contactpersoon > Trainingscentrum_Contactpersoon.csv
+curl -v GET http://tim:S4ofkZhDG4@localhost:8080/csv/DomDALExport/Trainingscentrum_AccountManagerAccount > Trainingscentrum_AccountManagerAccount.csv
